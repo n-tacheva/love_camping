@@ -1,0 +1,72 @@
+/* phones and small devices */
+@media only screen and (max-width: 600px) {
+    #testimonials-container, #steps-container, .testimonials{
+        flex-direction: column;
+    }
+    #header{
+        background: url(images/background-mobile.png);
+        background-repeat: no-repeat;
+        height: 250px;
+        background-size: cover;
+    }
+    .polygon-image{
+        transform: none;
+    }    
+    .container{
+        width: 100%;
+        padding: 11px;
+    }
+    button{
+        width: 290px;
+    }
+    .testimonials:first-child{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .testimonials-image{
+        width: 125px;
+        margin: auto
+    }
+    .testimonials{
+        padding: 25px
+    }
+    #technologies{
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+    }
+    #technologies>img{
+        flex: 0 50%;
+        width: 40px;
+        padding: 11px;
+        box-sizing: border-box
+    }
+    .style-mobile{
+        display: flex;
+    }
+    .style-desktop{
+        display: none;
+    }
+}
+
+/* large phones and tablets */
+@media only screen and (min-width:600px) and (max-width: 768px) {
+    #testimonials-container, #steps-container{
+        flex-direction: column;
+    }
+    .polygon-image{
+        transform: none;
+    }
+    #header{
+        height: 250px;
+    }
+    .container{
+        width: 100%;
+        padding: 11px;
+    }
+    button{
+        width: 200px;
+    }
+}

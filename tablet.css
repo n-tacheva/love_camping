@@ -1,0 +1,26 @@
+/* small laptops, landscape tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #testimonials-container, #steps-container{
+        flex-direction: column;
+    }
+    .polygon-image{
+        transform: none;
+    }
+    #header {
+        height: 300px;
+    }
+    #header-form-container{
+        margin-right: 15px;
+        width:300px
+    }
+    #header-content>h3{
+        font-size: 24px;
+    }
+    .testimonials:first-child{
+        margin-bottom: 30px;
+    }
+    .testimonials{
+        max-width: 540px;
+        margin: 0 auto 30px auto !important;
+    }
+}
